@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+  @font-face {
+       font-family: 'Poppins';
+       src: url('Poppins-Medium.ttf') format('truetype');
+   }
+
+
+/* Nav Bar*/
+
+.navbar {
+  height: 80px;
+  width: 100vw;
+  background-color: #42445A;
+  display: flex;
+  position: fixed;
+}
+
+.ndl {
+  height: 80px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.logo {
+  height: 75px;
+}
+
+.ndr {
+  height: 80px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ndr a {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.ndr a:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+
+/*Body*/
+
+.hero1 {
+  height: 400px;
+  width: 100%;
+  background-image: url("hero1.jpg");
+  background-size: contain;
+}
+
+.welcome {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 15px;
+}
+
+.hero2 {
+  height: 200px;
+  width: 100%;
+  background-image: url("hero2.jpg");
+  background-size: contain;
+  background-repeatX: no-repeat;
+}
+
+
+/*Card*/
+
+.card {
+  height: 210px;
+  width: 150px;
+  border: 2px solid rgba(0, 103, 255, 0.4);
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+
+.card:hover {
+  transform: scale(1.7);
+  transition: 0.4s;
+}
+
+.carddiv{
+  height: 220px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.ct {
+  height: 20px;
+  padding: 5px;
+  background-color: rgba(255, 251, 0, 1);
+}
+
+.cimg1 {
+  height: 180px;
+  width: 150px;
+  background-image: url("ho1.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+
+.cimg2{
+  height: 180px;
+  width: 150px;
+  background-image: url("ho2.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.cimg3 {
+  height: 180px;
+  width: 150px;
+  background-image: url("ho3.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.cimg4 {
+  height: 180px;
+  width: 150px;
+  background-image: url("ho4.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.cimg5 {
+  height: 180px;
+  width: 150px;
+  background-image: url("ho5.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.cimg6 {
+  height: 180px;
+  width: 150px;
+  background-image: url("ho6.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.cimg7 {
+  height: 180px;
+  width: 150px;
+  background-image: url("ho7.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.cimg8 {
+  height: 180px;
+  width: 150px;
+  background-image: url("ho7.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+
+.cimg9 {
+  height: 180px;
+  width: 150px;
+  background-image: url("ho9.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+@media (min-width: 600px) {
+  .card {
+    transform: scale(1.2);
+    gap: 50px;
+  }
+.ftr {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+}
+
+
+.ordrbtn a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  background-color: rgba(47, 223, 74, 1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 15px;
+}
+
+
+/*Footer*/
+
+.ftr {
+  opacity: 0.2;
+}
+
